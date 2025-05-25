@@ -10,8 +10,9 @@ fi
 # Activate virtual environment
 source venv/bin/activate
 
-# Upgrade pip and install requirements
+# Upgrade pip and install Django and other requirements
 pip install --upgrade pip
+pip install django
 pip install -r requirements.txt
 # Run initial migrations
 
