@@ -1,1 +1,2 @@
 # codex_test
+codexについて学習する為のリポジトリ
