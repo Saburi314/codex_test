@@ -1,0 +1,9 @@
+{% extends 'memo/base.html' %}
+{% block content %}
+<h1>{{ object.title }}</h1>
+<p>{{ object.notes }}</p>
+<p>Prepared: {{ object.prepared_date }}</p>
+<p>Expires: {{ object.expiry_date }}</p>
+<a href="{% url 'prepareditem_edit' object.pk %}">Edit</a>
+<a href="{% url 'prepareditem_delete' object.pk %}">Delete</a>
+{% endblock %}
