@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meal Prep Memo</title>
+</head>
+<body>
+    <nav>
+        <a href="{% url 'prepareditem_list' %}">Home</a>
+        <a href="{% url 'prepareditem_add' %}">Add</a>
+    </nav>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+</html>
